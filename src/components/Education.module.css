@@ -1,0 +1,47 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.entry {
+  padding-left: 16px;
+  border-left: 2px solid var(--border);
+  transition: border-color 200ms ease;
+}
+
+.entry:hover {
+  border-left-color: var(--accent);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+
+.degree {
+  font-family: 'Fraunces', serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.period {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--text-faint);
+}
+
+.school {
+  margin-top: 4px;
+  color: var(--accent);
+  font-size: 0.95rem;
+}
+
+.note {
+  margin-top: 4px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
