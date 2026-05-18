@@ -11,8 +11,8 @@ export const profile = {
   email: 'rpsarantidis@gmail.com',
   github: 'https://github.com/RomanosSrt',
   linkedin: 'https://www.linkedin.com/in/romanospsarantidis/',
-  cvUrl: '/cv.pdf', // Place your CV file at public/cv.pdf
-  photo: '/images/profile.png',
+  cvUrl: `${import.meta.env.BASE_URL}cv.pdf`,
+  photo: `${import.meta.env.BASE_URL}images/profile.png`,
 }
 
 export const experience = [
